@@ -1,0 +1,21 @@
+body {
+    background-color:silver;
+}
+
+#Content {
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    background-color: teal;
+}
+
+[id="Italic"] {
+    font-style: italic; 
+    font-size: 20px;
+}
+
+[href$=".com/"] {
+    color:seagreen;
+} 

@@ -1,0 +1,62 @@
+<!-- Create a registration page ( Create an Geekster admission forms) -->
+<!DOCTYPE html>
+<html>
+
+<body >     <!--We shouldn't use align as an attribute-->
+    <h2>Geekster's Registration Form</h2>
+    <form>
+        <label>First Name</label>
+        <input type="text" name="name" placeholder="First Name" required minlength="10" pattern="[a-Z]" />
+        <br/>
+        <br/>
+        <label>Last Name</label>
+        <input type="text" name="name" placeholder="Last Name" required minlength="10" pattern="[a-Z]" />
+        <br/>
+        <br/>
+        <label>Email Id</label>
+        <input type="Email" pattern=".+@gmail.com" />
+        <br/>
+        <br/>
+        <label>Contact Number</label>
+        <input type="text" required pattern="[o-9]" minlength="10" maxlength="10" />
+        <br/>
+        <br/>
+        <p> Gender
+            <input type="radio" name="gender" />
+            <label>MALE</label>
+            <input type="radio" name="gender" />
+            <label>FEMALE</label>
+        </p>
+        <br/>
+        <br/>
+        <h3>Courses to enroll</h3>
+        <input type="checkbox"/>Java
+        <br/>
+        <input type="checkbox"/>Web fundamentals
+        <br/>
+        <input type="checkbox"/>DSA
+        <br/>
+        <br/>
+        <label>City</label>
+        <br/>
+        <br/>
+        <input type="text" name="name" placeholder="City" required minlength="10" pattern="[a-Z]" />
+        <br/>
+        <br/>
+        <label>State</label>
+        <br/>
+        <br/>
+        <input type="text" name="name" placeholder="State" required minlength="10" pattern="[a-Z]" />
+        <br/>
+        <br/>
+        <label>Country</label>
+        <br/>
+        <br/>
+        <input type="text" name="name" placeholder="Country" required minlength="10" pattern="[a-Z]" />
+        <br/>
+        <br/>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
