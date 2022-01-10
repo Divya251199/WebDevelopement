@@ -6,3 +6,58 @@ Continue on the Geekster admission form.
 -> Use select box
 -> Give minimum for password
 -> Have a range for marks between 0 to 100. -->
+<!DOCTYPE html>
+
+<head>
+    <title>Registration Page</title>
+</head>
+
+<body style="background-color: coral; text-align: center;">
+    <h2>Registration Form</h2>
+    <form >
+        <label>First Name</label>
+        <input type="text" name="name" placeholder="First Name" required minlength="10" pattern="[a-Z]" />
+</br>
+</br>
+
+        <label>Last Name</label>
+        <input type="text" name="name" placeholder="Last Name" required minlength="10" pattern="[a-Z]" />
+</br>
+</br>
+
+        <label>Email Id</label>
+        <input type="Email" pattern=".+@gmail.com" />
+</br>
+</br>
+    <label>Contact Number</label>
+    <input type="text" required pattern="[o-9]" minlength="10" maxlength="10" />
+</br>
+        <p> Gender
+            <input type="radio" name="gender"/> 
+            <label>MALE</label>
+            <input type="radio" name="gender"/>
+            <label>FEMALE</label>
+        </p>
+    
+</br>
+    <p>Address</p>
+    <textarea cols="33" rows="3"></textarea>       
+</br>
+</br>
+    <label>City</label>
+    <input type="text" name="name" placeholder="City" required minlength="10" pattern="[a-Z]" />
+</br>
+</br>
+    <label>State</label>
+    <input type="text" name="name" placeholder="State" required minlength="10" pattern="[a-Z]" />
+</br>
+</br>
+    <label>Country</label>
+    <input type="text" name="name" placeholder="Country" required minlength="10" pattern="[a-Z]" />
+</br>
+</br>
+<button>Submit</button>
+</form>
+</body>
+
+</html>
