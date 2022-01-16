@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+.grid-container {
+    display: inline-grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    background:linear-gradient(45deg, #500303, #ee6767) ;
+  }
+
+  .grid-item {
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #332929;
+    cursor: pointer;
+    font-size: 60px;
+  }
+
+
+ 
