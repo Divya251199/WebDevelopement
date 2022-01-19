@@ -1,0 +1,19 @@
+body {
+    border: 2px black double;
+}
+
+header {
+    text-align: center;
+}
+section {
+    text-align: center;
+    margin: 50px;
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
