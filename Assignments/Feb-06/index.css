@@ -1,0 +1,105 @@
+body{
+    background-image: url('https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-color: #071d1d;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* NAvbar  */
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    width: 100vw;   
+    background-color: black;
+
+}
+.nav-item{    
+    margin: 2px 20px;
+}
+
+.nav-item ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    color: cornsilk;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ul li:hover{
+    color: #4e5050;
+}
+
+
+table{
+    width: 80%;
+    margin: 100px auto;
+    background: rgb(1, 32, 34);
+    color: cornsilk;
+    font-size: 1.25rem;
+    
+    
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"]{
+    width:90%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: cornsilk;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #061a2b;
+}
+
+input[type="reset"]:hover{
+    background: #061a2b;
+}
+
+button{
+    background: cornsilk;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#061a2b ;
+}

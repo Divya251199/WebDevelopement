@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Blog App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="navbar">
+         <div class="nav-item">
+             <ul>
+                 <li>Home</li>
+                 <li>About</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+             </ul>
+         </div>
+        
+    </div>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <h1>Add Post</h1>
+                    <div>
+                        <label for="Title">Title</label>
+                        <input type="text" name="Title" id="Title">
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="Description">Title Description</label>
+                        <br/>
+                        <input type="text" name="Description" id="Description">
+                    </div>
+                    <br/>
+                    <div>
+                        <label for="Text">Add some text here</label>
+                        <input type="text" name="Text" id="Text">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="Blogs">
+                        <thead>
+                            <tr>
+                                <th>Blog Name</th>
+                                <th>About</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
