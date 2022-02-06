@@ -1,0 +1,20 @@
+body{
+
+    background-color: blueviolet;
+}
+input{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+h1{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+#gallary {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallary.img {
+    width: 50px;
+}
