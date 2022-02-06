@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+  }
+  
+  table{
+     background-color: rgb(255, 255, 240);
+ }
+
+ td{
+   text-align:center;
+   width: 80px;
+ }
+
+ table button{
+     color: rgb(213, 213, 233);
+ }
+
+ h2 {
+   color:cornsilk
+ }
